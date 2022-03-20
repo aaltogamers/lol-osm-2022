@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./typography.css";
+
+.customFont-PhageRegular {
+    font-family: 'Phage Regular', 'Arial Narrow Bold', sans-serif;
+}
