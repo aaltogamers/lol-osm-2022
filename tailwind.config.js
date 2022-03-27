@@ -5,10 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'background': '#0d0d0d'
+        'background': '#0d0d0d',
+        'theme-red': '#E70657'
       },
       backgroundImage: {
-        'teemosquare': "url('../images/teemolit.png')",
+        'teemosquare': "url('../images/teemo_desktop.png')",
       }
     }
   },
