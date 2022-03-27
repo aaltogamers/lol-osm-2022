@@ -7,7 +7,7 @@ export const translations = {
     dates: {
         signUpStart: {
             [languages.FI]: "Ilmottautuminen aukeaa",
-            [languages.EN]: "Sign-up open",
+            [languages.EN]: "Sign-up opens",
         },
         signUpEnd: {
             [languages.FI]: "Ilmottautuminen sulkeutuu",
@@ -40,24 +40,20 @@ export const translations = {
             [languages.EN]: "Answer the call",
         },
         infoMenuTitle: {
-            [languages.FI]: "Info",
-            [languages.EN]: "Info",
+            [languages.FI]: "Yleistä",
+            [languages.EN]: "About",
         },
         timelineTitle: {
             [languages.FI]: "Aikataulu",
             [languages.EN]: "Timeline",
         },
         formatTitle: {
-            [languages.FI]: "Formaatti",
-            [languages.EN]: "Format",
+            [languages.FI]: "Info",
+            [languages.EN]: "Info",
         },
         signUpTitle: {
             [languages.FI]: "Ilmoittaudu",
             [languages.EN]: "Sign Up",
-        },
-        rulesTitle: {
-            [languages.FI]: "Info",
-            [languages.EN]: "Info",
         },
     },
     content: {
@@ -119,11 +115,23 @@ export const translations = {
             
             FINAALIT - Espoo 21.5.
             4 tiimin single-elimination, paras kolmest (BO3)
-            Server: EU West
+
+            SERVER: EU West
             
-            Stream: Molemmat päivät streamataan osoitteessa twitch.tv/aaltogamers
+            STREAM: Molemmat päivät streamataan osoitteessa twitch.tv/aaltogamers
             
-            Palkinnot: 1: 1000€, 2: 500€, 3 ja 4: 100€`,
+            PALKINNOT:
+            1: 1000€, 2: 500€, 3 ja 4: 100€
+            
+            FINAALIPÄIVÄ:
+            Turnauksen finaalipäivään pääsevät neljä parasta tiimiä ja päivä järjestetään livenä
+            Espoossa lauantaina 21.05. Neljä finaaliin päässyttä tiimiä ovat sitoutuneet osallistumaan
+            finaaliin livenä. Jos tiimi tulee kauempaa, Aalto Gamers voi avustaa tiimiä matkustamisen
+            ja majoituksen kanssa. Avustuksen tarpeesta ja muista finaalipäivän yksityiskohdista keskustellaan
+            neljän finaalitiimin kanssa erikseen karsintojen jälkeen.
+
+            SÄÄNNÖT:
+            `,
             [languages.EN]: `QUALIFIERS - Online 14.5. 12:00 - 19:00
             32 team double-elimination, best of 1 (BO1)
             The double-elimination bracket will not be fully completed,
@@ -132,13 +140,26 @@ export const translations = {
             FINALS - Espoo 21.5.
             4 team single-elimination, best of 3 (BO3)
             
-            Server: EU West
+            SERVER: EU West
             
-            Stream: Both days will be streamed at twitch.tv/aaltogamers
+            STREAM: Both days will be streamed at twitch.tv/aaltogamers
             
-            Prizes: 1st: 1000€
-                    2nd: 500€
-                    3rd & 4th: 100€`,
+            PRIZES: 1st: 1000€, 2nd: 500€, 3rd & 4th: 100€
+            
+            FINALS DAY:
+            The four best teams will get to the Finals day, which will be organised live
+            in Espoo on Saturdy 21.5. These four finals teams are committed to participate
+            at the finals live. If the team arrives from a further distance, Aalto Gamers
+            can assist in the team’s travel and accomodation. The need for this support and
+            other finals day details will be shared and discussed with the four finals teams
+            separately after the preliminaries.
+
+            RULES:
+            `,
+        },
+        formatReadMore: {
+            [languages.FI]: `Lue säännöt täältä`,
+            [languages.EN]: `Read the rules here `,
         },
         signUpContent1: {
             [languages.FI]: `Ilmoittautuaksesi, sinun täytyy
@@ -182,35 +203,5 @@ export const translations = {
             [languages.FI]: "Ilmoittaudu",
             [languages.EN]: "Sign Up",
         },
-        rules: {
-            prizes: {
-                [languages.FI]: `PALKINNOT
-                1. sija: 1000€
-                2. sija: 500€
-                3
-                `,
-                [languages.EN]: `Prizes`,
-            },
-            general: {
-                [languages.FI]: `Yleinen info`,
-                [languages.EN]: `General info`,
-            },
-            licence: {
-                [languages.FI]: `SEUL harrastajalisenssi`,
-                [languages.EN]: `SEUL amateur licence`,
-            },
-            finals: {
-                [languages.FI]: `Finaalipäivä`,
-                [languages.EN]: `Finals day`,
-            },
-            rules: {
-                [languages.FI]: `Säännöt`,
-                [languages.EN]: `Rules`,
-            },
-            stream: {
-                [languages.FI]: `Stream`,
-                [languages.EN]: `Stream`,
-            }
-        }
     }
 }

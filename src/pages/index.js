@@ -72,7 +72,7 @@ const IndexPage = () => {
               { Object.entries(tournamentInfo.dates).sort(([key, value], ...rest) => compareAsc(value.date, ...rest)).map( ([key, date]) => {
                 return (
                   <li key={key}>
-                    { format(date.date, "MM.dd.yyyy") } - { t(date.name) }
+                    { format(date.date, "dd.MM.yyyy") } - { t(date.name) }
                   </li>
                 )
               }) }    
@@ -87,13 +87,13 @@ const IndexPage = () => {
               { t(translations.titles.formatTitle) }
               </h1>
               <p className="text-white whitespace-pre-line">
-                { t(translations.content.formatContent) }
+                { t(translations.content.formatContent) }<a className="text-blue-500 underline" href="https://docs.google.com/document/d/1JMTgiNYxr56f3kAA77Qs5LqH3wNQTMMAYkE43NA4I8s/edit?usp=sharing">{t(translations.content.formatReadMore)}</a>
               </p> 
           </div>
         </div>
         <div className="bg-center min-h-screen min-w-screen flex flex-col items-center"
           id={sectionAnchors.signUp}>
-          <div className="pt-[28vh] pl-[15vw] pr-[5vw] w-full flex-grow">
+          <div className=" pt-[28vh] pl-[15vw] pr-[5vw] w-full flex-grow">
               <h1 className="text-theme-red text-3xl lg:text-5xl font-bold pb-5 customFont-PhageRegular">
               { t(translations.titles.signUpTitle) }
               </h1>  
