@@ -132,6 +132,7 @@ const MobileHeader = ({ onMenuItemClick, openMenu, showMenu }) => {
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
+        <LanguageSelector></LanguageSelector>
         <div className="flex flex-col h-[100%] justify-center items-center">
           { menuItems.map(menuItem => (
             <a 
@@ -144,7 +145,6 @@ const MobileHeader = ({ onMenuItemClick, openMenu, showMenu }) => {
           )}
           <SignUpButton onClick={onMenuItemClick}></SignUpButton>
         </div>
-        <LanguageSelector></LanguageSelector>
     </nav>
     </nav>
   )
@@ -200,6 +200,18 @@ const SignUpButton = ({ onClick }) => {
     <a className="bg-theme-red bg-opacity-80 text-slate rounded-full p-2 m-2" onClick={onClick} href={`#${sectionAnchors.signUp}`}>
       { t(translations.content.signUpButton) }
     </a>
+  )
+}
+
+const ArrowDown = () => {
+  return (
+    <div className="absolute bottom-screen h-8 w-screen justify-center items-center">
+      <button className="">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+    </div>
   )
 }
 
