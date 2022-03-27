@@ -18,11 +18,14 @@ const IndexPage = () => {
       <DesktopMenu></DesktopMenu>
       <div className="bg-teemosquare bg-cover bg-no-repeat bg-center min-h-screen min-w-screen flex flex-col justify-center items-center">
         <h1 className="text-white text-5xl lg:text-[9rem] font-bold underlin customFont-PhageRegular">
-          14.5.-21.5.
+          Opiskelijoiden SM-kisat
         </h1>        
         <h1 className="text-white text-xl lg:text-3xl tracking-widest font-bold underlin customFont-PhageRegular">
-          It`s coming
+          League of Legends
         </h1>
+        <h2 className="text-white text-xl lg:text-3xl tracking-widest font-bold underlin customFont-PhageRegular">
+          14.5. - 21.5.
+        </h2>
       </div>
       <div className="bg-center min-h-screen min-w-screen flex flex-col items-center"
         id={sectionAnchors.info}
@@ -123,7 +126,7 @@ const MobileHeader = ({ onMenuItemClick, openMenu, showMenu }) => {
               >{ t(menuItem.title) }</a>
           )
           )}
-          <SignUpButton></SignUpButton>
+          <SignUpButton onClick={onMenuItemClick}></SignUpButton>
         </div>
     </nav>
     </nav>
@@ -147,9 +150,9 @@ const DesktopMenu = () => {
   )
 }
 
-const SignUpButton = () => {
+const SignUpButton = ({ onClick }) => {
   return (
-    <a className="bg-theme-red bg-opacity-80 text-slate rounded-full p-2 m-2" href={`#${sectionAnchors.signUp}`}>
+    <a className="bg-theme-red bg-opacity-80 text-slate rounded-full p-2 m-2" onClick={onClick} href={`#${sectionAnchors.signUp}`}>
       { t(translations.content.signUpButton) }
     </a>
   )
