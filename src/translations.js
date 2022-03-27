@@ -62,12 +62,14 @@ export const translations = {
                 [languages.FI]: `League of Legends -pelaajat, on teidän aikanne vastata kutsuun 🔥  
                 
                 Aalto Gamers ylpeänä esittää... League of Legends opiskelijoiden SM-kisat 2022!
-                Kerää joukkueesi opiskelijoista tai vastavalmistuneista, kilpaile 2000€ palkintopotista ja LOL OSM-pokaalista 🏆
+                Kerää joukkueesi opiskelijoista tai vastavalmistuneista, kilpaile 2000€ palkintopotista
+                ja LOL OSM-pokaalista 🏆
                 `,
                 [languages.EN]: `Dear League of Legends players, it’s your time to answer the call 🔥  
 
                 Aalto Gamers proudly presents… League of Legends Finnish Student Championship 2022!
-                Gather your team of students or recent graduates and compete for a 2000€ prize pool and the glory of hoisting the LOL OSM cup 🏆
+                Gather your team of students or recent graduates and compete for a 2000€ prize pool
+                and the glory of hoisting the LOL OSM cup 🏆
                 `,
             },
             what: {

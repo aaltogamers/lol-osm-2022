@@ -47,7 +47,7 @@ const IndexPage = () => {
                 { t(translations.content.info.description) }
               </p>
             </div>
-            <ul className="flex-auto min-w-[200px] text-white flex flex-col justify-center items-start py-10">
+            <ul className="flex-auto w-screen text-white flex flex-col justify-center items-start py-10">
                 {
                 [
                   <><b>{t(translations.content.info.what) }</b> { t(translations.content.info.whatContent) }</>,
@@ -87,7 +87,7 @@ const IndexPage = () => {
               { t(translations.titles.formatTitle) }
               </h1>
               <p className="text-white whitespace-pre-line">
-                { t(translations.content.formatContent) }<a className="text-blue-500 underline" href="https://docs.google.com/document/d/1JMTgiNYxr56f3kAA77Qs5LqH3wNQTMMAYkE43NA4I8s/edit?usp=sharing">{t(translations.content.formatReadMore)}</a>
+                { t(translations.content.formatContent) }<a className="text-blue-500 underline" href="https://docs.google.com/document/d/1qpAEQ6e777UAiiuEsdF4xkvOMcCil-eYR7UILLeNB0I/edit?usp=sharing">{t(translations.content.formatReadMore)}</a>
               </p> 
           </div>
         </div>
