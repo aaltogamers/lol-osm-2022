@@ -110,7 +110,7 @@ export const translations = {
         formatContent: {
             [languages.FI]: `KARSINNAT - 14.5
             32 tiimin double-elimination, paras yhdestä (BO1)
-            Double-elimination lohkoa ei pelata täysin loppuun,
+            Double-elimination kaaviota ei pelata täysin loppuun,
             vaan 4 parasta tiimiä jatkavat finaaleihin
             
             FINAALIT - 21.5.
@@ -120,7 +120,7 @@ export const translations = {
             The double-elimination bracket will not be fully completed,
             but instead the top 4 teams qualify for the finals
             
-            FINALS 21.5.
+            FINALS - 21.5.
             4 team single-elimination, best of 3 (BO3)`,
         },
         signUpContent: {
