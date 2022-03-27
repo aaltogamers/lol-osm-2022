@@ -14,7 +14,7 @@ export const tournamentInfo = {
             description: null,
         }, 
         signUpEnd: {
-            date: zonedTimeToUtc('2021-05-01 12:00:00.000', siteInfo.timezone),
+            date: zonedTimeToUtc('2021-05-04 12:00:00.000', siteInfo.timezone),
             name: translations.dates.signUpEnd,
             description: null,
         },
