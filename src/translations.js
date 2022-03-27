@@ -177,13 +177,13 @@ export const translations = {
             • Be a higher education student in a Finnish University or a University of Applied Sciences. The whole team needs to be higher education students, but you do not need to be from the same school. 
                • Exchange and international students in Finland are also eligible to join.
                • Students who are on a gap year or have graduated maximum of 1 year ago are also eligible to join.
-            Have a SEUL amateur player licence. You can purchase it (3€) from Suomisport.fi and provide your suomisport ID in the sign-up form. `,
+            • Have a SEUL amateur player licence. You can purchase it (3€) from Suomisport.fi and provide your suomisport ID in the sign-up form. `,
         },
         signUpContent2: {
             [languages.FI]: `
             • Aalto Gamers voi myös tarvittaessa ostaa lisenssin puolestasi. `,
             [languages.EN]: `
-            Aalto Gamers also offers the possibility to buy the licence for the players. In these cases, `,
+            • Aalto Gamers also offers the possibility to buy the licence for the players. In these cases, `,
         },
         signUpMoreInfo: {
             [languages.FI]: "Ohjeet löytyvät täältä.",
