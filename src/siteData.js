@@ -1,9 +1,9 @@
 import { zonedTimeToUtc } from "date-fns-tz"
-import { translations } from "./translations"
+import { translations, languages } from "./translations"
 
 export const siteInfo = {
     timezone: 'Europe/Helsinki',
-    defaultLocale: "FI"
+    defaultLocale: languages.FI
 }
 
 export const tournamentInfo = {
