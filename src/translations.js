@@ -52,8 +52,12 @@ export const translations = {
             [languages.EN]: "Format",
         },
         signUpTitle: {
-            [languages.FI]: "Ilmottautudu",
+            [languages.FI]: "Ilmoittaudu",
             [languages.EN]: "Sign Up",
+        },
+        rulesTitle: {
+            [languages.FI]: "Info",
+            [languages.EN]: "Info",
         },
     },
     content: {
@@ -83,7 +87,7 @@ export const translations = {
                 [languages.EN]: "Prizes?",
             },
             whereToSignUp: {
-                [languages.FI]: "Missä voin ilmottautua?",
+                [languages.FI]: "Missä voin ilmoittautua?",
                 [languages.EN]: "Where can I sign up?",
             },
             whatContent: {
@@ -108,46 +112,105 @@ export const translations = {
             [languages.EN]: "Timeline",
         },
         formatContent: {
-            [languages.FI]: `KARSINNAT - 14.5
+            [languages.FI]: `KARSINNAT - Online 14.5 12:00 - 19:00
             32 tiimin double-elimination, paras yhdestä (BO1)
             Double-elimination kaaviota ei pelata täysin loppuun,
             vaan 4 parasta tiimiä jatkavat finaaleihin
             
-            FINAALIT - 21.5.
-            4 tiimin single-elimination, paras kolmest (BO3)`,
-            [languages.EN]: `QUALIFIERS - 14.5.
+            FINAALIT - Espoo 21.5.
+            4 tiimin single-elimination, paras kolmest (BO3)
+            Server: EU West
+            
+            Stream: Molemmat päivät streamataan osoitteessa twitch.tv/aaltogamers
+            
+            Palkinnot: 1: 1000€, 2: 500€, 3 ja 4: 100€`,
+            [languages.EN]: `QUALIFIERS - Online 14.5. 12:00 - 19:00
             32 team double-elimination, best of 1 (BO1)
             The double-elimination bracket will not be fully completed,
             but instead the top 4 teams qualify for the finals
             
-            FINALS - 21.5.
-            4 team single-elimination, best of 3 (BO3)`,
+            FINALS - Espoo 21.5.
+            4 team single-elimination, best of 3 (BO3)
+            
+            Server: EU West
+            
+            Stream: Both days will be streamed at twitch.tv/aaltogamers
+            
+            Prizes: 1st: 1000€
+                    2nd: 500€
+                    3rd & 4th: 100€`,
         },
-        signUpContent: {
+        signUpContent1: {
             [languages.FI]: `Ilmoittautuaksesi, sinun täytyy
 
             • Olla täysi tiimi (5-7 pelaajaa). Voit tarvittaessa etsiä tiimiläisiä esim. AG Discordista.
             • Olla korkeakoululopiskelija suomalaisessa yliopistossa tai ammattikorkeakoulussa. Kaikkien tiimin pelaajien täytyy olla korkeakouluopiskelijoita, mutta heidän ei tarvitse olla samoista kouluista.
               • Myös vaihto-opiskelijat ja muut kansainväliset opiskelijat suomalaisissa korkeakouluissa voivat osallistua.
               • Myös opiskelijat, jotka viettävät välivuotta tai ovat valmistuneet enintään (1) vuosi  sitten voivat osallistua.
-            • Hankkia SEUL:in harrastajalisenssi. Voit ostaa lisenssin (3€) Suomisports.fi -sivulta ja ilmoittaa ID numerosi ilmoittautumisen yhteydessä. Tarkemmat ohjeet lisenssin ostoon löytyy täältä.
-            • Aalto Gamers voi myös tarvittaessa ostaa lisenssin puolestasi. Ohjeet löytyvät täältä ja täytä tämä lomake.
-            
-            Ilmoittautuminen ei ole vielä auki. Ilmoittautuminen on auki 01.04.-04.05.2022.`,
+            • Hankkia SEUL:in harrastajalisenssi. Voit ostaa lisenssin (3€) Suomisports.fi -sivulta ja ilmoittaa ID numerosi ilmoittautumisen yhteydessä. `,
             [languages.EN]: `To sign-up, you must 
 
             • Have a full team (5-7 players). You can scout team members from AG Discord.
             • Be a higher education student in a Finnish University or a University of Applied Sciences. The whole team needs to be higher education students, but you do not need to be from the same school. 
                • Exchange and international students in Finland are also eligible to join.
                • Students who are on a gap year or have graduated maximum of 1 year ago are also eligible to join.
-            Have a SEUL amateur player licence. You can purchase it (3€) from Suomisport.fi and provide your suomisport ID in the sign-up form. Detailed instructions are here.
-            Aalto Gamers also offers the possibility to buy the licence for the players. In these cases, follow the instructions here and fill this form.
+            Have a SEUL amateur player licence. You can purchase it (3€) from Suomisport.fi and provide your suomisport ID in the sign-up form. `,
+        },
+        signUpContent2: {
+            [languages.FI]: `
+            • Aalto Gamers voi myös tarvittaessa ostaa lisenssin puolestasi. `,
+            [languages.EN]: `
+            Aalto Gamers also offers the possibility to buy the licence for the players. In these cases, `,
+        },
+        signUpMoreInfo: {
+            [languages.FI]: "Ohjeet löytyvät täältä.",
+            [languages.EN]: "follow the instructions here.",
+        },
+        signUpLicenseInfo: {
+            [languages.FI]: "Tarkemmat ohjeet lisenssin ostoon löytyy täältä.",
+            [languages.EN]: "Detailed instructions are here.",
+        },
+        signUpLink: {
+            [languages.FI]: `
+            
+            Ilmoittautuminen ei ole vielä auki. Ilmoittautuminen on auki 01.04.-04.05.2022.`,
+            [languages.EN]: `
             
             Sign-up is not open yet. Sign-ups will be open 01.04.-04.05.2022.`,
         },
         signUpButton: {
-            [languages.FI]: "Ilmottautudu",
+            [languages.FI]: "Ilmoittaudu",
             [languages.EN]: "Sign Up",
+        },
+        rules: {
+            prizes: {
+                [languages.FI]: `PALKINNOT
+                1. sija: 1000€
+                2. sija: 500€
+                3
+                `,
+                [languages.EN]: `Prizes`,
+            },
+            general: {
+                [languages.FI]: `Yleinen info`,
+                [languages.EN]: `General info`,
+            },
+            licence: {
+                [languages.FI]: `SEUL harrastajalisenssi`,
+                [languages.EN]: `SEUL amateur licence`,
+            },
+            finals: {
+                [languages.FI]: `Finaalipäivä`,
+                [languages.EN]: `Finals day`,
+            },
+            rules: {
+                [languages.FI]: `Säännöt`,
+                [languages.EN]: `Rules`,
+            },
+            stream: {
+                [languages.FI]: `Stream`,
+                [languages.EN]: `Stream`,
+            }
         }
     }
 }

@@ -98,7 +98,10 @@ const IndexPage = () => {
               { t(translations.titles.signUpTitle) }
               </h1>  
               <p className="text-white whitespace-pre-line">
-                { t(translations.content.signUpContent) }
+                { t(translations.content.signUpContent1) }<a className="text-blue-500 underline" href="https://docs.google.com/document/d/1JMTgiNYxr56f3kAA77Qs5LqH3wNQTMMAYkE43NA4I8s/edit?usp=sharing">{t(translations.content.signUpLicenseInfo)}</a>
+                { t(translations.content.signUpContent2) }<a className="text-blue-500 underline" href="https://docs.google.com/document/d/1JMTgiNYxr56f3kAA77Qs5LqH3wNQTMMAYkE43NA4I8s/edit">{t(translations.content.signUpMoreInfo)}</a>
+
+                { t(translations.content.signUpLink)}
               </p>
           </div>
         </div>
