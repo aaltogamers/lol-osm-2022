@@ -9,7 +9,8 @@ module.exports = {
         'theme-red': '#E70657'
       },
       backgroundImage: {
-        'teemosquare': "url('../images/teemo_desktop.webp')",
+        'teemo-desktop': "url('../images/teemo_desktop.webp')",
+        'teemo-mobile': "url('../images/teemo_mobile.webp')",
       }
     }
   },

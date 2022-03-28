@@ -25,7 +25,7 @@ const IndexPage = () => {
         openMenu={() => setDisplayMobileMenu(true)}
         ></MobileHeader>
         <DesktopMenu></DesktopMenu>
-        <div className="bg-teemosquare bg-cover bg-no-repeat bg-center min-h-screen min-w-screen flex flex-col justify-center items-center">
+        <div className="bg-teemo-mobile sm:bg-teemo-desktop bg-cover bg-no-repeat bg-center min-h-screen min-w-screen flex flex-col justify-center items-center">
           <h1 className="text-white text-4xl lg:text-[5rem] font-bold underlin customFont-PhageRegular p-1 text-center">
             { t(translations.titles.landingTitle1)}
           </h1>        
