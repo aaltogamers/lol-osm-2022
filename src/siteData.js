@@ -9,22 +9,22 @@ export const siteInfo = {
 export const tournamentInfo = {
     dates: {
         signUpStart: {
-            date: zonedTimeToUtc('2021-04-01 12:00:00.000', siteInfo.timezone),
+            date: zonedTimeToUtc('2022-04-01 12:00:00.000', siteInfo.timezone),
             name: translations.dates.signUpStart,
             description: null,
         }, 
         signUpEnd: {
-            date: zonedTimeToUtc('2021-05-04 12:00:00.000', siteInfo.timezone),
+            date: zonedTimeToUtc('2022-05-04 12:00:00.000', siteInfo.timezone),
             name: translations.dates.signUpEnd,
             description: null,
         },
         qualifiers: {
-            date: zonedTimeToUtc('2021-05-14 12:00:00.000', siteInfo.timezone),
+            date: zonedTimeToUtc('2022-05-14 12:00:00.000', siteInfo.timezone),
             name: translations.dates.qualifiers,
             description: null,
         },
         finals: {
-            date: zonedTimeToUtc('2021-05-21 12:00:00.000', siteInfo.timezone),
+            date: zonedTimeToUtc('2022-05-21 12:00:00.000', siteInfo.timezone),
             name: translations.dates.finals,
             description: null,
         },
