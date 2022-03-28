@@ -11,7 +11,11 @@ const Head = () => {
 
 
     return (
-    <Helmet>
+    <Helmet
+        htmlAttributes={{
+            lang: langState,
+        }}
+    >
         <meta charSet="utf-8" />
         <title>{ t(siteInfo.shortTitle) }</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
