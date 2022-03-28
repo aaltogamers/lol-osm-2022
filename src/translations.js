@@ -1,9 +1,9 @@
-export const languages = {
+const languages = {
     FI: "fi",
     EN: "en"
 }
 
-export const translations = {
+const translations = {
     tournamentTitle: {
         [languages.FI]: "League of Legends Opiskelijoiden SM-kisat 2022",
         [languages.EN]: "League of Legends Finnish Student Championship 2022",        
@@ -222,4 +222,9 @@ export const translations = {
             [languages.EN]: "Sign Up",
         },
     }
+}
+
+module.exports = {
+    languages,
+    translations
 }
