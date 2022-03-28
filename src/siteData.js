@@ -3,7 +3,12 @@ import { translations, languages } from "./translations"
 
 export const siteInfo = {
     timezone: 'Europe/Helsinki',
-    defaultLocale: languages.FI
+    defaultLocale: languages.FI,
+    title: translations.tournamentTitle,
+    shortTitle: translations.tournamentTitleShort,
+    description: translations.siteDescription,
+    author: "Aalto Gamers",
+    domain: translations.homePageLink
 }
 
 export const tournamentInfo = {

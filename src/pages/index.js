@@ -5,6 +5,8 @@ import { format, compareAsc } from 'date-fns'
 import { languages, translations } from "../translations.js"
 import { LanguageProvider } from "../contexts/Language"
 import { LanguageContext } from "../contexts/Language"
+import Head from "../components/header.js"
+
 
 
 // markup
@@ -16,6 +18,7 @@ const IndexPage = () => {
 
   return (
       <main className="bg-background">
+        <Head></Head>
         <MobileHeader 
         showMenu={displayMobileMenu} 
         onMenuItemClick={() => setDisplayMobileMenu(false)} 
