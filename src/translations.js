@@ -1,5 +1,3 @@
-import { siteInfo } from "./siteData"
-
 export const languages = {
     FI: "fi",
     EN: "en"
