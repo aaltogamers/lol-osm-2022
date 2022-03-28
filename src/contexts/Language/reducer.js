@@ -1,3 +1,4 @@
+import { siteInfo } from "../../siteData"
 
 export const languageReducer = (state, action) => {
     console.log(state)
@@ -11,4 +12,4 @@ export const languageReducer = (state, action) => {
     }
   }
   
-  export const languageInitialState = null
+  export const languageInitialState = siteInfo.defaultLocale
