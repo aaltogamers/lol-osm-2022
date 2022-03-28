@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import {Helmet} from "react-helmet";
-import siteInfo from "../siteData"
+import { siteInfo } from "../siteData"
 import { translations } from "../translations";
 import { translate } from "../utils.js"
 import { LanguageContext } from "../contexts/Language"
