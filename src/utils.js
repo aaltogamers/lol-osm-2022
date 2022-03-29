@@ -1,5 +1,4 @@
 import { siteInfo } from "./siteData"
-import { languages } from "./translations"
 
 // export const getSupportedBrowserLocale = () => {
 //     const browserLocale = window.navigator.language

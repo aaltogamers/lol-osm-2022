@@ -6,7 +6,7 @@ import { translate } from "../utils.js"
 import { LanguageContext } from "../contexts/Language"
 
 const Head = () => {
-    const [langState, dispatch] = useContext(LanguageContext)
+    const [langState ] = useContext(LanguageContext)
     const t = (translation) => translate(translation, langState)
 
 
