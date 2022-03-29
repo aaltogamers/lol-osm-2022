@@ -149,7 +149,6 @@ const MobileHeader = ({ onMenuItemClick, openMenu, showMenu }) => {
               >{ t(menuItem.title) }</a>
           )
           )}
-          <SignUpButton onClick={onMenuItemClick}></SignUpButton>
         </div>
     </nav>
     </nav>
@@ -206,18 +205,6 @@ const SignUpButton = ({ onClick }) => {
     <a className="bg-theme-red bg-opacity-80 text-slate rounded-full p-2 m-2" onClick={onClick} href={`#${sectionAnchors.signUp}`}>
       { t(translations.content.signUpButton) }
     </a>
-  )
-}
-
-const ArrowDown = () => {
-  return (
-    <div className="absolute bottom-screen h-8 w-screen justify-center items-center">
-      <button className="">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-        </svg>
-      </button>
-    </div>
   )
 }
 
