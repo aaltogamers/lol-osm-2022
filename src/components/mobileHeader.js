@@ -1,13 +1,18 @@
-import React, { useContext } from "react"
+import React, { useState, useContext } from "react"
 import  { menuItems } from "../siteData.js"
 import { translate } from "../utils.js"
 import { LanguageContext } from "../contexts/Language"
 import LanguageSelector from "../components/languageSelector"
 import SignUpButton from "./signUpButton.js"
 
-const MobileHeader = ({ onMenuItemClick, openMenu, showMenu }) => {
+const MobileHeader = () => {
     const [langState ] = useContext(LanguageContext)
     const t = (translation) => translate(translation, langState)
+
+    const [displayMobileMenu, setDisplayMobileMenu] = useState(false);
+
+    const openMenu = () => setDisplayMobileMenu(true)
+    const onMenuItemClick = () => setDisplayMobileMenu(false)
   
     return (
       <nav className="md:hidden text-white fixed top-0 left-0 w-full bg-background flex flex-row p-2 justify-around items-center">
@@ -20,7 +25,7 @@ const MobileHeader = ({ onMenuItemClick, openMenu, showMenu }) => {
         </button>
         <nav className={
           "text-white fixed h-screen top-0 bg-background flex flex-col p-8 justify-start items-center transition-all motion-reduce:transition-none "
-          + (showMenu
+          + (displayMobileMenu
           ? "right-0"
           : "-right-full")
         }>
