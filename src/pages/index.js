@@ -1,5 +1,6 @@
 import React from "react"
 import { LanguageProvider } from "../contexts/Language"
+import { CustomMDXProvider } from "../contexts/CustomMDX"
 import Head from "../components/head.js"
 import MobileHeader from "../components/mobileHeader"
 import DesktopMenu from "../components/desktopMenu"
@@ -25,7 +26,12 @@ const IndexPage = () => {
   )
 }
 
-const IndexWithProviders = () => <LanguageProvider><IndexPage></IndexPage></LanguageProvider>
+const IndexWithProviders = () => 
+  <LanguageProvider>
+    <CustomMDXProvider>
+      <IndexPage></IndexPage>
+    </CustomMDXProvider>
+  </LanguageProvider>
 
 export default IndexWithProviders
 
