@@ -158,14 +158,18 @@ const translations = {
         signUpLink: {
             [languages.FI]: `
             
-            Ilmoittautuminen ei ole vielä auki. Ilmoittautuminen on auki 01.04.-04.05.2022.`,
+            Ilmoittautuminen on auki 01.04.-04.05.2022. Ilmoittaudu nyt!`,
             [languages.EN]: `
             
-            Sign-up is not open yet. Sign-ups will be open 01.04.-04.05.2022.`,
+            Sign-ups will be open 01.04.-04.05.2022. Sign up now!`,
         },
         signUpButton: {
             [languages.FI]: "Ilmoittaudu",
             [languages.EN]: "Sign Up",
+        },
+        signUpFormButton: {
+            [languages.FI]: "Avaa ilmoittautumilomake tästä!",
+            [languages.EN]: "Open the sign-up form here!",
         },
     }
 }

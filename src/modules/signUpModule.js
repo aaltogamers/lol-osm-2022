@@ -18,8 +18,10 @@ const SignUpModule = () => {
               <p className="text-white whitespace-pre-line">
                 { t(translations.content.signUpContent1) }<a className="text-blue-500 underline" href="https://docs.google.com/document/d/1JMTgiNYxr56f3kAA77Qs5LqH3wNQTMMAYkE43NA4I8s/edit?usp=sharing">{t(translations.content.signUpLicenseInfo)}</a>
                 { t(translations.content.signUpContent2) }<a className="text-blue-500 underline" href="https://docs.google.com/document/d/1JMTgiNYxr56f3kAA77Qs5LqH3wNQTMMAYkE43NA4I8s/edit">{t(translations.content.signUpMoreInfo)}</a>
-
-                { t(translations.content.signUpLink)}
+                <br/><br/>
+                <a className="bg-theme-red bg-opacity-80 text-slate rounded-full p-2 m-2" href="https://aaltogamers.typeform.com/to/SpeNVqoN">
+                    { t(translations.content.signUpFormButton) }
+                </a>
               </p>
           </div>
         </div>
