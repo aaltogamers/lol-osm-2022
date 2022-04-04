@@ -11,7 +11,7 @@ const SignUpModule = () => {
     return (
         <div className="bg-center min-h-screen min-w-screen flex flex-col items-center"
           id={sectionAnchors.signUp}>
-          <div className=" pt-[28vh] pl-[15vw] pr-[5vw] w-full flex-grow">
+          <div className="pb-[30vh] pt-[28vh] pl-[15vw] pr-[5vw] w-full flex-grow">
               <h1 className="text-theme-red text-3xl lg:text-5xl font-bold pb-5 customFont-PhageRegular">
               { t(translations.titles.signUpTitle) }
               </h1>  
