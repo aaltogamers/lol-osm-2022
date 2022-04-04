@@ -6,7 +6,7 @@ const languages = {
 const translations = {
     tournamentTitle: {
         [languages.FI]: "League of Legends Opiskelijoiden SM-kisat 2022",
-        [languages.EN]: "League of Legends Finnish Student Championship 2022",        
+        [languages.EN]: "League of Legends Finnish Student Championships 2022",        
     },
     tournamentTitleShort: {
         [languages.FI]: "LoL OSM 2022",
@@ -83,7 +83,7 @@ const translations = {
                 `,
                 [languages.EN]: `Dear League of Legends players, it’s your time to answer the call 🔥  
 
-                Aalto Gamers proudly presents… League of Legends Finnish Student Championship 2022!
+                Aalto Gamers proudly presents… League of Legends Finnish Student Championships 2022!
                 Gather your team of students or recent graduates and compete for a 2000€ prize pool
                 and the glory of hoisting the LOL OSM cup 🏆
                 `,
@@ -117,8 +117,8 @@ const translations = {
                 [languages.EN]: "2000€ prize pool",
             },
             whereToSignUpContent: {
-                [languages.FI]: "Ilmoittautuminen aukeaa 1.4. tälle sivulle",
-                [languages.EN]: "Sign-up opens 1.4. on this page",
+                [languages.FI]: "Ilmoittautuminen on auki 01.04.-04.05.2022. Linkki ilmoittautumiseen löytyy alhaalta",
+                [languages.EN]: "Sign-ups will be open 01.04.-04.05.2022. The sign-up link is below",
             },
         },
         timelineContent: {
