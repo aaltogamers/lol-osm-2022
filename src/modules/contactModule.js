@@ -2,56 +2,47 @@ import React, { useContext } from "react"
 import { languages, translations } from "../translations"
 import { LanguageContext } from "../contexts/Language"
 import { translate } from "../utils"
-import { sectionAnchors } from "../siteData"
+import { sectionAnchors, siteInfo } from "../siteData"
 import Link from "../components/link"
+import { SocialIcon  } from "react-social-icons"
 
 const { FI, EN } = languages
+
+const SocialIcons = () => {
+    return <div className="flex flex-col">
+           {Object.entries(siteInfo.socialMedia).map(([key, social]) => 
+                <Link href={social.url} key={key} className="mb-1">
+                    <SocialIcon url={social.url} network={social.network} className="mr-2"></SocialIcon>
+                    {social.label}
+                </Link>
+            )}</div>
+} 
 
 const moduleTranslations = {
     [FI]: <div className="text-white">
         <p>Kysyttävää turnauksen järjestelyistä?</p>
         <p>📨 Sähköposti: <Link href="mailto:board@aaltogamers.fi">board@aaltogamers.fi</Link></p>
-       
-        <p><Link href="">Facebook</Link></p>
-        <p><Link href="">Instagram</Link></p>
-        <p><Link href="">Facebook</Link></p>
-        Aalto Gamers kotisivut: <Link href="https://aaltogamers.fi">aaltogamers.fi</Link>
+        <p>Aalto Gamers kotisivut: <Link href="https://aaltogamers.fi">aaltogamers.fi</Link></p>
+        <br/>
+        <SocialIcons></SocialIcons>
     </div>,
-    [EN]: <>
-        <p className="text-white whitespace-pre-line">
-           { `QUALIFIERS - Online 14.5. 12:00 - 19:00
-            32 team double-elimination, best of 1 (BO1). The double-elimination bracket will not be fully completed, but instead the top 4 teams qualify for the finals
-            
-            FINALS - Espoo 21.5.
-            4 team single-elimination, best of 3 (BO3)
-            
-            SERVER: EU West
-            
-            STREAM: 
-            Both days will be streamed at `}<Link href="https://twitch.tv/aaltogamers">{`twitch.tv/aaltogamers`}</Link>{`
-            
-            PRIZES: 
-            1st: 1000€
-            2nd: 500€
-            3rd & 4th: 100€
-            
-            FINALS DAY:
-            The four best teams will get to the Finals day, which will be organised live in Espoo on Saturdy 21.5. These four finals teams are committed to participate at the finals live. If the team arrives from a further distance, Aalto Gamers can assist in the team’s travel and accomodation. The need for this support and other finals day details will be shared and discussed with the four finals teams separately after the preliminaries.
-
-            RULES:\n` }
-            <Link href="https://docs.google.com/document/d/1qpAEQ6e777UAiiuEsdF4xkvOMcCil-eYR7UILLeNB0I/edit?usp=sharing">Read the rules here</Link>
-        </p> 
-    </>
+    [EN]: <div className="text-white">
+        <p>Questions about the tournament?</p>
+        <p>📨 Email: <Link href="mailto:board@aaltogamers.fi">board@aaltogamers.fi</Link></p>
+        <p>Aalto Gamers website: <Link href="https://aaltogamers.fi">aaltogamers.fi</Link></p>
+        <br/>
+        <SocialIcons></SocialIcons>
+    </div>
 
 }
 
-const FormatModule = () => {
+const ContactModule = () => {
     const [langState] = useContext(LanguageContext)
     const t = (translation) => translate(translation, langState)
 
     return (
         <div className="bg-center min-h-screen min-w-screen flex flex-col items-center"
-        id={sectionAnchors.format}
+        id={sectionAnchors.contact}
       >
         <div className="pt-[28vh] pl-[15vw] pr-[5vw] w-full flex-grow">
             <h1 className="text-white text-3xl lg:text-5xl font-bold pb-5 customFont-PhageRegular">
@@ -65,4 +56,4 @@ const FormatModule = () => {
     )
 }
 
-export default FormatModule
+export default ContactModule

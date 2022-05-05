@@ -1,6 +1,5 @@
 import { zonedTimeToUtc } from "date-fns-tz"
 import { translations, languages } from "./translations"
-
 export const siteInfo = {
     timezone: 'Europe/Helsinki',
     defaultLocale: languages.FI,
@@ -9,12 +8,29 @@ export const siteInfo = {
     description: translations.siteDescription,
     author: "Aalto Gamers",
     domain: translations.homePageLink,
-    socialMedia: [
-        { 
-            label: "",
-            link: ""
+    socialMedia: {
+        facebook: { 
+            label: "Facebook",
+            url: "https://facebook.com/aaltogamers/",
+        },
+        instagram: {
+            label: "Instagram",
+            url: "http://www.instagram.com/aaltogamers/"
+        },
+        telegram:  {
+            label: "Telegram",
+            url: "http://bit.do/aaltogamerslobby",
+            network: "telegram"
+        },
+        discord: {
+            label: "Discord",
+            url: "https://discord.gg/Ew7nGQqHgc"
+        },
+        twitch: {
+            label: "Twitch",
+            url: "http://twitch.tv/aaltogamers"
         }
-    ],
+    },
     sponsors: [
         { 
             label: "Digia",
@@ -53,7 +69,8 @@ export const sectionAnchors = {
     info: "info",
     timeline: "timeline",
     format: "format",
-    signUp: "sign-up"
+    signUp: "sign-up",
+    contact: "contact"
 }
 
 export const menuItems = [
@@ -68,6 +85,11 @@ export const menuItems = [
     {
         title: translations.titles.formatTitle,
         anchor: sectionAnchors.format
+    },
+    {
+        title: translations.titles.contactTitle,
+        anchor: sectionAnchors.contact
     }
 ]
+
     

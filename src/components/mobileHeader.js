@@ -14,7 +14,7 @@ const MobileHeader = () => {
     const onMenuItemClick = () => setDisplayMobileMenu(false)
   
     return (
-      <nav className="md:hidden text-white fixed top-0 left-0 w-full bg-background flex flex-row p-2 justify-around items-center">
+      <nav className="md:hidden text-white fixed top-0 left-0 w-full bg-background flex flex-row p-2 justify-around items-center z-10">
         <button onClick={openMenu} class="flex-col justify-center items-center align-middle h-fit space-y-2">
           <span class="sr-only">Open menu</span>
           <div class="w-8 h-0.5 bg-white"></div>

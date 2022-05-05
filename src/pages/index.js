@@ -8,7 +8,7 @@ import LandingModule from "../modules/landingModule.js"
 import GeneralInfoModule from "../modules/generalInfoModule.js"
 import TimelineModule from "../modules/timelineModule.js"
 import FormatModule from "../modules/formatModule.js"
-import SignUpModule from "../modules/signUpModule.js"
+import ContactModule from "../modules/contactModule"
 
 // markup
 const IndexPage = () => {
@@ -21,7 +21,7 @@ const IndexPage = () => {
         <GeneralInfoModule></GeneralInfoModule>
         <TimelineModule></TimelineModule>
         <FormatModule></FormatModule>
-        <SignUpModule></SignUpModule>
+        <ContactModule></ContactModule>
       </main>
   )
 }

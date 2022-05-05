@@ -9,7 +9,7 @@ const DesktopMenu = () => {
     const t = (translation) => translate(translation, langState)
   
     return (
-      <nav className="text-white fixed top-0 right-0 bg-background hidden md:flex flex-col p-2 justify-center items-center space-y-4">
+      <nav className="text-white fixed top-0 right-0 bg-background hidden md:flex flex-col p-2 justify-center items-center space-y-4 z-10">
         { menuItems.map(menuItem => (
           <a
             key= {menuItem.anchor}
