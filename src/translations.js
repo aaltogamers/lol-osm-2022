@@ -113,8 +113,8 @@ const translations = {
                 [languages.EN]: "League of Legends Finnish Student Championships 2022",
             },
             whenContent: {
-                [languages.FI]: "Karsinnat: 14.5, online, Finaalit: 21.5, livetapahtuma Espoossa",
-                [languages.EN]: "Qualifiers: 14.5, online, Finals: 21.5, live event in Espoo",
+                [languages.FI]: "Karsinnat: 14.5, online, Finaalit: 21.5, livetapahtuma Design Factorylla, Betonimiehenkuja 5C, Espoo (loppuunmyyty)",
+                [languages.EN]: "Qualifiers: 14.5, online, Finals: 21.5, Live event at Design Factory, Betonimiehenkuja 5C, Espoo (tickets sold out)",
             },
             prizesContent: {
                 [languages.FI]: "2000€ palkintopotti",
