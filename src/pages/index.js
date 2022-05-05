@@ -9,6 +9,7 @@ import GeneralInfoModule from "../modules/generalInfoModule.js"
 import TimelineModule from "../modules/timelineModule.js"
 import FormatModule from "../modules/formatModule.js"
 import ContactModule from "../modules/contactModule"
+import FooterModule from "../modules/footerModule"
 
 // markup
 const IndexPage = () => {
@@ -22,6 +23,7 @@ const IndexPage = () => {
         <TimelineModule></TimelineModule>
         <FormatModule></FormatModule>
         <ContactModule></ContactModule>
+        <FooterModule></FooterModule>
       </main>
   )
 }
