@@ -71,6 +71,10 @@ const translations = {
             [languages.FI]: "Ilmoittaudu",
             [languages.EN]: "Sign Up",
         },
+        contactTitle: {
+            [languages.FI]: "Yhteystiedot",
+            [languages.EN]: "Contact",
+        },
     },
     content: {
         info: {
@@ -117,8 +121,8 @@ const translations = {
                 [languages.EN]: "2000€ prize pool",
             },
             whereToSignUpContent: {
-                [languages.FI]: "Ilmoittautuminen on auki 01.04.-04.05.2022. Linkki ilmoittautumiseen löytyy alhaalta",
-                [languages.EN]: "Sign-ups will be open 01.04.-04.05.2022. The sign-up link is below",
+                [languages.FI]: "Ilmoittautuminen oli auki 01.04.-04.05.2022. Ilmoittautuminen on päättynyt.",
+                [languages.EN]: "Sign-ups were open 01.04.-04.05.2022. Sign-up has ended.",
             },
         },
         timelineContent: {
@@ -158,10 +162,10 @@ const translations = {
         signUpLink: {
             [languages.FI]: `
             
-            Ilmoittautuminen on auki 01.04.-04.05.2022. Ilmoittaudu nyt!`,
+            Ilmoittautuminen on auki 01.04.-04.05.2022.!`,
             [languages.EN]: `
             
-            Sign-ups will be open 01.04.-04.05.2022. Sign up now!`,
+            Sign-ups will be open 01.04.-04.05.2022.`,
         },
         signUpButton: {
             [languages.FI]: "Ilmoittaudu",
@@ -170,6 +174,10 @@ const translations = {
         signUpFormButton: {
             [languages.FI]: "Avaa ilmoittautumilomake tästä!",
             [languages.EN]: "Open the sign-up form here!",
+        },
+        signUpEnded: {
+            [languages.FI]: "Ilmoittautuminen on päättynyt.",
+            [languages.EN]: "Sign-up has ended.",
         },
     }
 }
