@@ -33,10 +33,32 @@ export const siteInfo = {
     },
     sponsors: [
         { 
+            label: "Espoo",
+            link: "espoologo.png",
+            logoName: "espoologo"
+        },
+        { 
             label: "Digia",
-            link: "/logos/digia logo.png",
-            imageUrl: "/logos/digia logo.png"
-        }
+            link: "/digia logo.png",
+            logoName: "digialogo"
+        },
+        { 
+            label: "OSM",
+            link: "/digia logo.png",
+            logoName: "OSM-LOGO"
+        },
+        { 
+            label: "ED",
+            link: "/digia logo.png",
+            logoName: "edlogo"
+        },
+        { 
+            label: "SEUL",
+            link: "/digia logo.png",
+            logoName: "seul_FI_EN_lyhyt_valkoinen",
+            invert: true
+        },
+
     ]
 }
 

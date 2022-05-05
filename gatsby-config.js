@@ -57,7 +57,7 @@ module.exports = {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "logos",
-      "path": "./src/images/logos"
+      "path": "./src/logos"
     },
     __key: "logos"
   }]
