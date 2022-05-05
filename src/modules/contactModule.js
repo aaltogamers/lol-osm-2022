@@ -11,10 +11,12 @@ const { FI, EN } = languages
 const SocialIcons = () => {
     return <div className="flex flex-col">
            {Object.entries(siteInfo.socialMedia).map(([key, social]) => 
-                <Link href={social.url} key={key} className="mb-1">
+                <div className="mb-1">
                     <SocialIcon url={social.url} network={social.network} className="mr-2"></SocialIcon>
-                    {social.label}
-                </Link>
+                    <Link href={social.url} key={key}>
+                        {social.label}
+                    </Link>
+                </div>
             )}</div>
 } 
 
