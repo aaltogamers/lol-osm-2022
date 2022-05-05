@@ -25,7 +25,7 @@ const SponsorList = () => {
 //   `)
 
     return (
-        <StaticImage src="../images/logos/sponsorsz.png"></StaticImage>
+        <StaticImage src="../images/logos/sponsorsz.png" placeholder="tracedSVG"></StaticImage>
         // siteInfo.sponsors.map(sponsor => <SponsorLogo sponsor={sponsor} logos={data.edges}></SponsorLogo>)
     )
 }
