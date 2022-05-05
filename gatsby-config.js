@@ -52,5 +52,13 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
+  },
+  {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "logos",
+      "path": "./src/images/logos"
+    },
+    __key: "logos"
   }]
 };

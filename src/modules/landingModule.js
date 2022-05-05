@@ -2,6 +2,7 @@ import React, { useContext } from "react"
 import { translations } from "../translations"
 import { LanguageContext } from "../contexts/Language"
 import { translate } from "../utils"
+import SponsorList from "../components/sponsorsList"
 
 const LandingModule = () => {
     const [langState] = useContext(LanguageContext)
@@ -17,6 +18,7 @@ const LandingModule = () => {
             <h2 className="text-white text-xl lg:text-3xl tracking-widest font-bold underlin customFont-PhageRegular pt-5">
             { t(translations.titles.landingTitle3)}
             </h2>
+            <SponsorList></SponsorList>
         </div>
     )
     

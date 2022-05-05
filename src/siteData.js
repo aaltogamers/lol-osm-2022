@@ -8,7 +8,20 @@ export const siteInfo = {
     shortTitle: translations.tournamentTitleShort,
     description: translations.siteDescription,
     author: "Aalto Gamers",
-    domain: translations.homePageLink
+    domain: translations.homePageLink,
+    socialMedia: [
+        { 
+            label: "",
+            link: ""
+        }
+    ],
+    sponsors: [
+        { 
+            label: "Digia",
+            link: "/logos/digia logo.png",
+            imageUrl: "/logos/digia logo.png"
+        }
+    ]
 }
 
 export const tournamentInfo = {
