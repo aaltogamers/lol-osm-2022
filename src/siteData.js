@@ -58,6 +58,18 @@ export const siteInfo = {
             logoName: "seul_FI_EN_lyhyt_valkoinen",
             invert: true
         },
+        { 
+            label: "Lenovo",
+            link: "/digia logo.png",
+            logoName: "legion",
+            invert: true
+        },
+        { 
+            label: "Nokia",
+            link: "/digia logo.png",
+            logoName: "nokia",
+            invert: true
+        },
 
     ]
 }
