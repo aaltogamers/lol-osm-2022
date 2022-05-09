@@ -8,10 +8,12 @@ const SponsorLogo = ({ sponsor, logos }) => {
 
     return (
         <div className="m-5 w-1/6">
+          <a href={sponsor.link}>
             <GatsbyImage
                 className=""
                 image={getImageUrl(sponsor.logoName)}
                 alt={sponsor.label}/>
+          </a>
         </div>
     )
 }

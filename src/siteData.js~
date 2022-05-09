@@ -34,39 +34,39 @@ export const siteInfo = {
     sponsors: [
         { 
             label: "Espoo",
-            link: "https://www.espoo.fi/fi",
+            link: "espoologo.png",
             logoName: "espoologo"
         },
         { 
             label: "Digia",
-            link: "https://digia.com/rekrytointi",
+            link: "/digia logo.png",
             logoName: "digialogo"
         },
         { 
             label: "OSM",
-            link: "https://www.osmkisat.fi/",
+            link: "/digia logo.png",
             logoName: "OSM-LOGO"
         },
         { 
             label: "ED",
-            link: "https://www.hartwall.fi/juomat/energiajuomat/ed/",
+            link: "/digia logo.png",
             logoName: "edlogo"
         },
         { 
             label: "SEUL",
-            link: "https://seul.fi/",
+            link: "/digia logo.png",
             logoName: "seul_FI_EN_lyhyt_valkoinen",
             invert: true
         },
         { 
             label: "Lenovo",
-            link: "https://www.lenovo.com/us/en/legion/",
+            link: "/digia logo.png",
             logoName: "legion",
             invert: true
         },
         { 
             label: "Nokia",
-            link: "https://www.nokia.com/about-us/careers/",
+            link: "/digia logo.png",
             logoName: "nokia",
             invert: true
         },
